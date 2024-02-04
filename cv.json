@@ -1,0 +1,185 @@
+{
+  "basics": {
+    "name": "Lautaro Bunkowski",
+    "label": "Full Stack Web Developer",
+    "image": "",
+    "email": "lautarobunkowski@gmail.com",
+    "phone": "(+54) 3755 66-0903",
+    "url": "https://lautaro.bunk.com",
+    "summary": "Entusiasta de la tecnologia, buscando un lugar en el mundo de la programación, Actualmente vivo en Misiones provincia de Argentina, tengo 22 años y me desempeño como desarrollador web, si gustas que forme parte de tu equipo no dudes en ponerte en Contacto!",
+    "location": {
+      "address": "Estanislao Lopéz",
+      "postalCode": "3360",
+      "city": "Oberá - Misiones",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Lautaro Bunkowski",
+        "url": "https://www.linkedin.com/in/lautaro-bunkowski/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Lautaro Bunkowski",
+        "url": "https://github.com/lautarobunkowski"
+      }
+    ]
+  },
+  "work": [],
+  "education": [
+    {
+      "institution": "Soy Henry",
+      "area": "Desarrollo web",
+      "studyType": "Fullstack Web Developer",
+      "startDate": "2023-05-05",
+      "endDate": "2024-01-11"
+    },
+    {
+      "institution": "E.P.E.T N°3 'Polonia', Oberá, Misiones",
+      "area": "Maestro Mayor de Obras",
+      "studyType": "Tecnico",
+      "startDate": "2013-03-03",
+      "endDate": "2018-12-11"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "English Certificate",
+      "date": "2024-01-24",
+      "issuer": "EFSET ",
+      "url": "https://www.efset.org/cert/PKH8Qe"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo web", "FrontEnd"]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo web", "FrontEnd", "Diseño Responsive"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo web",
+        "FrontEnd",
+        "Diseño Responsive",
+        "CSS Framework"
+      ]
+    },
+    {
+      "name": "Javascript",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo web", "FrontEnd", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Git",
+      "level": "Intermedio",
+      "keywords": ["Control de Versiones", "Colaboracion", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermedio",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboracion",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo web", "FrontEnd", "Javascript Library", "UI"]
+    },
+    {
+      "name": "Redux",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo web", "FrontEnd", "state management"]
+    },
+    {
+      "name": "Node",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo web", "Backend", "Javascript", "Servidor"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "B1 Intermediate"
+    }
+  ],
+  "projects": [
+    {
+      "name": "GameWorld E-Commerce",
+      "isActive": false,
+      "startDate": "2023-11",
+      "endDate": "2023-12",
+      "description": "Creamos en equipo un ecommerce de venta online de videojuegos físicos y digitales con diferentes plataformas a elegir, implementamos la metodología Ágil SCRUM con Sprints semanales y Dailys 3 veces por semana, puestos a prueba para trabajar en Equipo completamos con éxito los requisitos del proyecto",
+      "highlights": [
+        "Tailwind CSS",
+        "Redux.js",
+        "Metodologias ágiles",
+        "Sequelize.js",
+        "PostgreSQL",
+        "Resolución de Problemas",
+        "React.js",
+        "Scrum",
+        "Express.js",
+        "Vite",
+        "Node.js"
+      ],
+      "url": "https://gameworldeccomerce.vercel.app/"
+    },
+    {
+      "name": "Pokedex",
+      "isActive": false,
+      "startDate": "2023-09",
+      "endDate": "2023-10",
+      "description": "Pokedex realizado con React, contiene paginado, filtros, ordenamiento del lado del front, busqueda por nombre exacto y creación de Pokémon con formulario controlado, trabajo en conjunto con la Api PokeApi para la recopilación de datos, el apartado de estilos se realizo con Modules CSS",
+      "highlights": [
+        "Redux.js",
+        "Sequelize.js",
+        "PostgreSQL",
+        "React.js",
+        "Express.js",
+        "Node.js",
+        "CSS Modules"
+      ],
+      "url": "https://pokedex-spa.vercel.app/"
+    },
+    {
+      "name": "Rick & Morty Searcher",
+      "isActive": false,
+      "startDate": "2023-05",
+      "endDate": "2023-09",
+      "description": "Mi primer SPA hecho con React, al igual que mi Back-end realizado con NodeJS, Sequelize, y base de datos postgres, se trata de un buscador de cards de la serie de Rick and Morty vía ID, se trabajo con CSS modules para darle un diseño atractivo y responsive",
+      "highlights": [
+        "Redux.js",
+        "Sequelize.js",
+        "PostgreSQL",
+        "React.js",
+        "Express.js",
+        "Node.js",
+        "CSS Modules"
+      ],
+      "url": "https://rick-and-morty-delta-olive.vercel.app/"
+    }
+  ]
+}

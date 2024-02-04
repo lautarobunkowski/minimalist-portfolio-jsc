@@ -1,0 +1,10 @@
+---
+import Section from "@/components/Section.astro";
+import { basics } from "@cv";
+
+const { summary } = basics;
+---
+
+<Section title="Acerca">
+  <h2 class="dark:text-[#94a3b8]">{summary}</h2>
+</Section>

@@ -1,5 +1,6 @@
 ---
 import { basics } from "@cv";
+import ButtonComands from "@/components/ButtonComands.jsx";
 const { profiles } = basics;
 
 const SOCIAL_ICONS: Record<string, string> = {
@@ -45,8 +46,10 @@ const profilesInfo = profiles.map(({ network, url }) => {
 });
 ---
 
+<ButtonComands client:only />
+
 <footer
-  class="animate-fadeIn scroll-smooth print:hidden text-xs bg-[#fdfdfd] border border-[#eee] fixed bottom-0 w-full py-1 px-4 text-center"
+  class="animate-fadeIn scroll-smooth hidden print:hidden text-xs bg-[#fdfdfd] border border-[#eee] sm:block fixed bottom-0 w-full py-1 px-4 text-center"
 >
   Pulsa <kbd class="bg-[#eee] rounded py-[2px] px-1 text-xs">Ctrl</kbd> + <kbd
     class="bg-[#eee] rounded py-[2px] px-1 text-xs">K</kbd
@@ -57,7 +60,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
   openHotkey="ctrl+K"
   data-info={JSON.stringify(profilesInfo)}
   placeholder="Buscar Comando"
-  hideBreadcrumbs></ninja-keys>
+  hideBreadcrumbs
+>
+</ninja-keys>
 
 <script>
   import "ninja-keys";
@@ -133,6 +138,12 @@ const profilesInfo = profiles.map(({ network, url }) => {
   @media print {
     ninja-keys {
       display: none;
+    }
+  }
+
+  @media (max-width: 640px) {
+    ninja-keys {
+      --ninja-width: 300px;
     }
   }
 

@@ -39,9 +39,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     section: "Social",
     title: `Visitar ${network}`,
     icon,
-    handler: () => {
-      window.open(url, "_blank");
-    },
+    url,
   };
 });
 ---
@@ -93,7 +91,6 @@ const profilesInfo = profiles.map(({ network, url }) => {
           window.print();
         },
       },
-      ...data,
       {
         id: "Tema",
         title: "Cambia el Tema",
@@ -130,6 +127,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
           document.documentElement.classList.add("dark");
         },
       },
+      ...data,
     ];
   }
 </script>
